@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container-fluid {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  border-bottom: 4px solid lightgray;
+}
+
+.container-fluid-dark {
+  background: black;
+}
+
+.container-fluid-light {
+  background: white;
+}
+
+.container {
+  width: 80vw;
+  max-width: 1000px;
+}
+
+.container-dark {
+  background: black;
+}
+
+.container-light {
+  background: white;
+}
+
+.main1 {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  background: black;
+  color: white;
+}
+
+.main1-title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.main1-contact {
+  width: 100%;
+  font-size: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.name-title {
+  font-size: 3.5rem;
+}
+
+.main2 {
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main2-content {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.main2-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.main2-video-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.main2-video-container iframe {
+  height: 200px;
+}
+
+.main3 {
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main3-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.main3-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.link-button {
+  display: inline;
+  padding: 10px 20px;
+}
+
+.link-button-light {
+  background: white;
+  color: black;
+  border: 2px solid black;
+}
+
+.link-button-light:hover {
+  transition-duration: 500ms;
+  background: black;
+  color: white;
+}
+
+.link-button-dark {
+  background: black;
+  color: white;
+  border: 2px solid white;
+}
+
+.link-button-dark:hover {
+  transition-duration: 500ms;
+  background: white;
+  color: black;
+}
+
+#resume-button {
+  margin-top: 20px;
+}
+
+footer {
+  width: 100vw;
+  height: 100px;
+  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
